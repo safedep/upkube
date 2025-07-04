@@ -46,7 +46,7 @@ rules:
 
 - apiGroups: [""]
   resources: ["pods"]
-  verbs: ["get", "list"]
+  verbs: ["list"]
 ```
 
 While `deployments` rule is essential, when you will also provide `pods` **list** rules, `upkube` will shows any error while fetching any image and its error. 
